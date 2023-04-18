@@ -6,8 +6,8 @@ const hourHand = document.querySelector('.hour-hand');
 function setDate() {
 	const now = new Date();
 	const seconds = now.getSeconds();
-	const secondDegrees = (seconds / 60) * 360 + 90;
-	secondDegrees.style.transform = `rotate(${secondDegrees}deg)`;
+	const secondDegrees = ((seconds / 60) * 360) + 90;
+	secondHand.style.transform = `rotate(${secondDegrees}deg)`;
 
    const mins = now.getMinutes();
    const minsDegrees = ((mins / 60) * 360) + 90;
