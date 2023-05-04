@@ -1,17 +1,20 @@
-function playSound(e) {
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-    if (!audio) return;
-    audio.currentTime = 0;
-    audio.play();
-    key.classList.add('playing');
-};
+const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+let lastChecked;
+function handleCheck(e) {
+  let inBetween = false;
+  if (e.shiftKey && this.checked) {
+    checkboxes.forEach(checkbox => {
+      console.log(checkbox);
+      if (checkbox === this || checkbox === lastChecked) {
+        inBetween = !inBetween;
+        console.log('Starting to check them in between!');
+      }
+      if (inBetween) {
+        checkbox.checked = true;
+      }
+    });
+  }
+  lastChecked = this;
+}
 
-function removeTransition(e) {
-    if (e.propertyName !== 'transform') return;
-    this.classList.remove('playing');
-};
-
-const keys = document.querySelectorAll('.key');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-window.addEventListener('keydown', playSound);
+checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
