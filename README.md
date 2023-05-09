@@ -12,3 +12,4 @@
 ![image](https://user-images.githubusercontent.com/61347452/236621747-4f812554-e9d7-42d4-9ac4-e0414723c41f.png)
 ##### 7.) Отслеживает вводиомое значение секретного слова, при совпадении появляется картинка ![image](https://user-images.githubusercontent.com/61347452/236640255-c16627ff-02c0-4039-b9f0-707881406ab8.png)
 ##### 8.) Главная особенность - это появление изображений при скролле ![image](https://user-images.githubusercontent.com/61347452/236640922-4df0e677-2b58-4204-b018-0e1d93f815fa.png)
+##### 9.) Todo-лист ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/24cd3088-2043-47f8-8023-9821dd5637e8)
