@@ -14,3 +14,4 @@
 ##### 8.) Отслеживает вводиомое значение секретного слова, при совпадении появляется картинка ![image](https://user-images.githubusercontent.com/61347452/236640255-c16627ff-02c0-4039-b9f0-707881406ab8.png)
 ##### 9.) Главная особенность - это появление изображений при скролле ![image](https://user-images.githubusercontent.com/61347452/236640922-4df0e677-2b58-4204-b018-0e1d93f815fa.png)
 ##### 10.) Todo-лист ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/24cd3088-2043-47f8-8023-9821dd5637e8)
+##### 11.) Красивая отрисовка тени в разных цветах при смещении относительно главной картинки ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/dd18e8ba-47f0-487f-91d4-7eab2c57eafc)
