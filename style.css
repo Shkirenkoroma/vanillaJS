@@ -1,0 +1,10 @@
+body {
+    background-color: red
+}
+
+.videos {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 62px;
+}
