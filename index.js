@@ -1,17 +1,22 @@
-function playSound(e) {
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-    if (!audio) return;
-    audio.currentTime = 0;
-    audio.play();
-    key.classList.add('playing');
-};
+window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-function removeTransition(e) {
-    if (e.propertyName !== 'transform') return;
-    this.classList.remove('playing');
-};
+const recognition = new SpeechRecognition();
+recognition.interimResults = true;
+const p = document.createElement('p');
+const words = document.querySelector('.words');
+words.appendChild(p);
+recognition.addEventListener('result', e => {
+  const transcript = Array.from(e.results)
+    .map(result => result[0])
+    .map(result => result.transcript)
+    .join('')
 
-const keys = document.querySelectorAll('.key');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-window.addEventListener('keydown', playSound);
+  p.textContent = transcript;
+  if (e.results[0].isFinal) {
+    p = document.createElement('p');
+    words.appendChild(p);
+  }
+
+})
+recognition.addEventListener('end', recognition.start)
+recognition.start()
