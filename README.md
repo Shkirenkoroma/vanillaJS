@@ -15,7 +15,7 @@
 11) Сортиировка отображаемой информации после загрузки через API ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/83624ed5-f1a2-4d89-a67d-ac555f177b60)
 12) Работа с такой особенностьб как всплытие ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/3540aa77-f4a9-42f4-8e3b-600a21f674d0) 
 13) Получение доступа к камере и возможность делать снимок и изменять изображение ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/4e7abffa-31e9-4349-98cb-074e04664553)
-14) 
+
 
 
 
