@@ -14,7 +14,24 @@
 10) Изменение изображения при смещения курсора относительно центра ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/5209e1fd-fd00-4ed4-bbb7-043f3d6bcb01)
 11) Сортиировка отображаемой информации после загрузки через API ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/83624ed5-f1a2-4d89-a67d-ac555f177b60)
 12) Работа с такой особенностьб как всплытие ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/3540aa77-f4a9-42f4-8e3b-600a21f674d0) 
-13) Получение доступа к камере и возможность делать снимок и изменять изображение ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/4e7abffa-31e9-4349-98cb-074e04664553)
+13) Проект не имеет визуального отображения, при этом суть сводится к тому, чтобы посчитать все минуты и секунды в списке с видеозаписями
+14) Получение доступа к камере и возможность делать снимок и изменять изображение ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/4e7abffa-31e9-4349-98cb-074e04664553)
+15) Проект не имеет визуального отображения, при этом связан с распознованием речи
+16) Получение геолокации и отображение на компасе ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/3d099281-b4ed-4821-9e41-cb1e9f5edad9)
+17) Красивая подсветка текста при наведении ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/3b733043-4108-4840-8927-e5577944706b)
+18) Воспроизведение текста ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/6d65fc0d-7489-4b70-a8cd-665bea32934d)
+19) При скролле появляется боковое меню-ссылка ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/f749f124-a50b-4c41-9dd5-5c5fcbae7a95)
+20) Работа с понятием - "Всплытие события" ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/d8199e6c-e5d7-4bf2-89f2-a2c374b52990)
+21) При наведении появляется красивый тултип ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/5b6764f9-fbb8-48f0-bd89-971ae197f5a6)
+22) Работа с Drag&Drop ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/1344dea6-b6e5-484c-95a4-51dcaa075a7b)
+23) Настройка воспроизведения с использованием изменения скорости видео  ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/fcdc9b41-2d63-4b71-b67d-102430b4c642)
+24) Настраиваемый таймер ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/f69982fd-a05e-4296-80c8-892e37974df8)
+
+
+
+
+
+ 
 
 
 
