@@ -26,6 +26,7 @@
 22) Работа с Drag&Drop ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/1344dea6-b6e5-484c-95a4-51dcaa075a7b)
 23) Настройка воспроизведения с использованием изменения скорости видео  ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/fcdc9b41-2d63-4b71-b67d-102430b4c642)
 24) Настраиваемый таймер ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/f69982fd-a05e-4296-80c8-892e37974df8)
+25) Мини-игра: "Споймать крота" ![image](https://github.com/Shkirenkoroma/vanillaJS/assets/61347452/40adf319-90d2-43f4-844f-ffede05fb423)
 
 
 
